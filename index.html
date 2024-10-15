@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <link rel="stylesheet" href="./App.css">
+    <title>Scroll-animation</title>
+</head>
+
+<body>
+    <button class="button glow-effect">
+        hover here 👋
+        <svg class="glow-container">
+          <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+          <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+        </svg>
+      </button>
+      
+      <button class="button glow-effect" data-glow-animation="false">
+        hover here 👋
+        <svg class="glow-container">
+          <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+          <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+        </svg>
+      </button>
+      
+      <button class="button glow-effect" data-glow-offset="true">
+        Hover here 👋
+        <svg class="glow-container">
+          <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+          <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+        </svg>
+      </button>
+      
+      <div class="avatar glow-effect" data-glow-animation="grow">
+        <img src="https://images.unsplash.com/photo-1422565096762-bdb997a56a84?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <svg class="glow-container">
+          <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+          <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+        </svg>
+      </div>
+      
+     
+    <script src="./app.js"></script>
+    </body>
+</html>
